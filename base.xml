@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="RedHatWeasel" fetch="https://github.com/RedHatWeasel/" />
+<remote name="LineageOS" fetch="https://github.com/LineageOS/" />
+
+
+<remove-project name="platform/frameworks/base" />
+<remove-project name="device/google/redbull" />
+<remove-project name="device/google/redfin" />
+
+<project path="frameworks/base" name="platform_frameworks_base" remote="RedHatWeasel" revision="master" />
+<project path="device/google/redbull" name="device_google_redbull" remote="RedHatWeasel" revision="master" />
+<project path="device/google/redfin" name="device_google_redfin" remote="RedHatWeasel" revision="master" />
+<project path="vendor/prepare_vendor" name="android-prepare-vendor" remote="RedHatWeasel" revision="11" />
+
+</manifest>
