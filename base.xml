@@ -13,4 +13,19 @@
 <project path="device/google/redfin" name="device_google_redfin" remote="RedHatWeasel" revision="master" />
 <project path="vendor/prepare_vendor" name="android-prepare-vendor" remote="RedHatWeasel" revision="11" />
 
+
+<!-- use some apps from LineageOS -->
+<remove-project name="platform/packages/apps/Contacts" />
+<remove-project name="platform/packages/apps/Dialer" />
+<remove-project name="platform/packages/apps/Messaging" />
+<remove-project name="platform/packages/apps/Calendar" />
+<remove-project name="platform/packages/inputmethods/LatinIME" />
+
+<project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="LineageOS" revision="lineage-18.1" />
+<project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="LineageOS" revision="lineage-18.1" />
+<project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="LineageOS" revision="lineage-18.1" />
+<project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="LineageOS" revision="lineage-18.1" />
+<project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="LineageOS" revision="lineage-18.1" />
+<project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="LineageOS" revision="lineage-18.1" />
+
 </manifest>
