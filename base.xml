@@ -13,6 +13,9 @@
 <project path="device/google/redfin" name="device_google_redfin" remote="RedHatWeasel" revision="master" />
 <project path="vendor/prepare_vendor" name="android-prepare-vendor" remote="RedHatWeasel" revision="11" />
 
+<project path="vendor/common" name="vendor_common" remote="RedHatWeasel" revision="master" />
+<project path="vendor/apps" name="vendor_apps" remote="RedHatWeasel" revision="master" />
+
 
 <!-- use some apps from LineageOS -->
 <remove-project name="platform/packages/apps/Contacts" />
