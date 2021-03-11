@@ -7,10 +7,12 @@
 <remove-project name="platform/frameworks/base" />
 <remove-project name="device/google/redbull" />
 <remove-project name="device/google/redfin" />
+<remove-project name="platform/packages/apps/Launcher3" />
 
 <project path="frameworks/base" name="platform_frameworks_base" remote="RedHatWeasel" revision="android-11.0.0_r32" />
 <project path="device/google/redbull" name="device_google_redbull" remote="RedHatWeasel" revision="android-11.0.0_r32" />
 <project path="device/google/redfin" name="device_google_redfin" remote="RedHatWeasel" revision="android-11.0.0_r32" />
+<project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="RedHatWeasel" revision="android-11.0.0_r32" />
 <project path="vendor/prepare_vendor" name="android-prepare-vendor" remote="RedHatWeasel" revision="11" />
 
 <project path="vendor/common" name="vendor_common" remote="RedHatWeasel" revision="master" />
